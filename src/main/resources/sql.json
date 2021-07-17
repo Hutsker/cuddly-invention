@@ -1,0 +1,632 @@
+{
+  "parserRule": [
+    {
+      "sql_plus_command": [
+        {
+          "type": 2251,
+          "text": "@src\\main\\resources\\test1.sql;\n",
+          "line": 1
+        }
+      ]
+    },
+    {
+      "unit_statement": [
+        {
+          "create_package": [
+            {
+              "type": 288,
+              "text": "create",
+              "line": 3
+            },
+            {
+              "type": 1172,
+              "text": "or",
+              "line": 3
+            },
+            {
+              "type": 1407,
+              "text": "replace",
+              "line": 3
+            },
+            {
+              "type": 1191,
+              "text": "package",
+              "line": 3
+            },
+            {
+              "package_name": [
+                {
+                  "identifier": [
+                    {
+                      "id_expression": [
+                        {
+                          "regular_id": [
+                            {
+                              "type": 2252,
+                              "text": "test_package",
+                              "line": 3
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": 61,
+              "text": "as",
+              "line": 3
+            },
+            {
+              "package_obj_spec": [
+                {
+                  "variable_declaration": [
+                    {
+                      "identifier": [
+                        {
+                          "id_expression": [
+                            {
+                              "regular_id": [
+                                {
+                                  "type": 2252,
+                                  "text": "c_mobile_service_id$i",
+                                  "line": 4
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": 255,
+                      "text": "constant",
+                      "line": 4
+                    },
+                    {
+                      "type_spec": [
+                        {
+                          "datatype": [
+                            {
+                              "native_datatype_element": [
+                                {
+                                  "type": 682,
+                                  "text": "integer",
+                                  "line": 4
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "default_value_part": [
+                        {
+                          "type": 2232,
+                          "text": ":\u003d",
+                          "line": 4
+                        },
+                        {
+                          "expression": [
+                            {
+                              "logical_expression": [
+                                {
+                                  "unary_logical_expression": [
+                                    {
+                                      "multiset_expression": [
+                                        {
+                                          "relational_expression": [
+                                            {
+                                              "compound_expression": [
+                                                {
+                                                  "concatenation": [
+                                                    {
+                                                      "model_expression": [
+                                                        {
+                                                          "unary_expression": [
+                                                            {
+                                                              "atom": [
+                                                                {
+                                                                  "constant": [
+                                                                    {
+                                                                      "numeric": [
+                                                                        {
+                                                                          "type": 2217,
+                                                                          "text": "100541",
+                                                                          "line": 4
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": 2241,
+                      "text": ";",
+                      "line": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": 445,
+              "text": "end",
+              "line": 5
+            },
+            {
+              "package_name": [
+                {
+                  "identifier": [
+                    {
+                      "id_expression": [
+                        {
+                          "regular_id": [
+                            {
+                              "type": 2252,
+                              "text": "test_package",
+                              "line": 5
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": 2241,
+              "text": ";",
+              "line": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit_statement": [
+        {
+          "create_package_body": [
+            {
+              "type": 288,
+              "text": "create",
+              "line": 8
+            },
+            {
+              "type": 1172,
+              "text": "or",
+              "line": 8
+            },
+            {
+              "type": 1407,
+              "text": "replace",
+              "line": 8
+            },
+            {
+              "type": 1191,
+              "text": "package",
+              "line": 8
+            },
+            {
+              "type": 133,
+              "text": "body",
+              "line": 8
+            },
+            {
+              "package_name": [
+                {
+                  "identifier": [
+                    {
+                      "id_expression": [
+                        {
+                          "regular_id": [
+                            {
+                              "type": 2252,
+                              "text": "test_package",
+                              "line": 8
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": 61,
+              "text": "as",
+              "line": 8
+            },
+            {
+              "package_obj_body": [
+                {
+                  "procedure_body": [
+                    {
+                      "type": 1314,
+                      "text": "procedure",
+                      "line": 9
+                    },
+                    {
+                      "identifier": [
+                        {
+                          "id_expression": [
+                            {
+                              "regular_id": [
+                                {
+                                  "type": 2252,
+                                  "text": "proc",
+                                  "line": 9
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": 2223,
+                      "text": "(",
+                      "line": 9
+                    },
+                    {
+                      "parameter": [
+                        {
+                          "parameter_name": [
+                            {
+                              "identifier": [
+                                {
+                                  "id_expression": [
+                                    {
+                                      "regular_id": [
+                                        {
+                                          "type": 2252,
+                                          "text": "num",
+                                          "line": 9
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type_spec": [
+                            {
+                              "datatype": [
+                                {
+                                  "native_datatype_element": [
+                                    {
+                                      "type": 682,
+                                      "text": "integer",
+                                      "line": 9
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": 2224,
+                      "text": ")",
+                      "line": 9
+                    },
+                    {
+                      "type": 695,
+                      "text": "is",
+                      "line": 9
+                    },
+                    {
+                      "seq_of_declare_specs": [
+                        {
+                          "declare_spec": [
+                            {
+                              "variable_declaration": [
+                                {
+                                  "identifier": [
+                                    {
+                                      "id_expression": [
+                                        {
+                                          "regular_id": [
+                                            {
+                                              "type": 2252,
+                                              "text": "num2",
+                                              "line": 10
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type_spec": [
+                                    {
+                                      "datatype": [
+                                        {
+                                          "native_datatype_element": [
+                                            {
+                                              "type": 682,
+                                              "text": "integer",
+                                              "line": 10
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": 2241,
+                                  "text": ";",
+                                  "line": 10
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "body": [
+                        {
+                          "type": 102,
+                          "text": "begin",
+                          "line": 11
+                        },
+                        {
+                          "seq_of_statements": [
+                            {
+                              "statement": [
+                                {
+                                  "assignment_statement": [
+                                    {
+                                      "general_element": [
+                                        {
+                                          "general_element_part": [
+                                            {
+                                              "id_expression": [
+                                                {
+                                                  "regular_id": [
+                                                    {
+                                                      "type": 2252,
+                                                      "text": "num2",
+                                                      "line": 12
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": 2232,
+                                      "text": ":\u003d",
+                                      "line": 12
+                                    },
+                                    {
+                                      "expression": [
+                                        {
+                                          "logical_expression": [
+                                            {
+                                              "unary_logical_expression": [
+                                                {
+                                                  "multiset_expression": [
+                                                    {
+                                                      "relational_expression": [
+                                                        {
+                                                          "compound_expression": [
+                                                            {
+                                                              "concatenation": [
+                                                                {
+                                                                  "concatenation": [
+                                                                    {
+                                                                      "model_expression": [
+                                                                        {
+                                                                          "unary_expression": [
+                                                                            {
+                                                                              "atom": [
+                                                                                {
+                                                                                  "general_element": [
+                                                                                    {
+                                                                                      "general_element_part": [
+                                                                                        {
+                                                                                          "id_expression": [
+                                                                                            {
+                                                                                              "regular_id": [
+                                                                                                {
+                                                                                                  "type": 2252,
+                                                                                                  "text": "num",
+                                                                                                  "line": 12
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "type": 2227,
+                                                                  "text": "+",
+                                                                  "line": 12
+                                                                },
+                                                                {
+                                                                  "concatenation": [
+                                                                    {
+                                                                      "model_expression": [
+                                                                        {
+                                                                          "unary_expression": [
+                                                                            {
+                                                                              "atom": [
+                                                                                {
+                                                                                  "constant": [
+                                                                                    {
+                                                                                      "numeric": [
+                                                                                        {
+                                                                                          "type": 2217,
+                                                                                          "text": "2",
+                                                                                          "line": 12
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": 2241,
+                              "text": ";",
+                              "line": 12
+                            },
+                            {
+                              "statement": [
+                                {
+                                  "sql_statement": [
+                                    {
+                                      "transaction_control_statements": [
+                                        {
+                                          "commit_statement": [
+                                            {
+                                              "type": 218,
+                                              "text": "commit",
+                                              "line": 13
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": 2241,
+                              "text": ";",
+                              "line": 13
+                            }
+                          ]
+                        },
+                        {
+                          "type": 445,
+                          "text": "end",
+                          "line": 14
+                        }
+                      ]
+                    },
+                    {
+                      "type": 2241,
+                      "text": ";",
+                      "line": 14
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": 445,
+              "text": "end",
+              "line": 15
+            },
+            {
+              "package_name": [
+                {
+                  "identifier": [
+                    {
+                      "id_expression": [
+                        {
+                          "regular_id": [
+                            {
+                              "type": 2252,
+                              "text": "test_package",
+                              "line": 15
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": 2241,
+              "text": ";",
+              "line": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": -1,
+      "text": "\u003cEOF\u003e",
+      "line": 16
+    }
+  ]
+}

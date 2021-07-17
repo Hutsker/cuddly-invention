@@ -1,0 +1,3 @@
+java -jar plsqlParser-1.0-jar-with-dependencies.jar -i "C:\Users\Alexey\OneDrive\Документы\gitlab\ertelecom\find\src\mai
+n\resources\file1.json" -c "C:\Users\Alexey\OneDrive\Документы\gitlab\ertelecom\find\src\main\resources\conf.txt" -o "C:\Users\Alexey\OneDrive\Документы\gitlab\ertelecom\find\src\main\
+resources\objects.txt"

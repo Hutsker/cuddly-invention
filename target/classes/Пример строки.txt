@@ -1,0 +1,1 @@
+java -jar target\plsqlParser-1.0-jar-with-dependencies.jar -i "src\main\resources\file1.json" -c "src\main\resources\conf.txt" -o "src\main\resources\objects.txt"
