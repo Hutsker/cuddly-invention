@@ -7,6 +7,11 @@ end equation;
 @1.sql;
 
 create or replace package body equation is
+
+type mytype is record (
+    str varchar2(50),
+    num integer,
+    dat date);
     --Процедура добавления уравнения в таблицу equations
     procedure add_equation(a number, b number, c number) is
     begin
@@ -59,7 +64,6 @@ CREATE VIEW sup_orders AS
       INNER JOIN orders
       ON suppliers.supplier_id = orders.supplier_id
       WHERE suppliers.supplier_name = 'Microsoft';
-
 
 CREATE OR REPLACE TRIGGER orders_before_insert
 BEFORE INSERT
