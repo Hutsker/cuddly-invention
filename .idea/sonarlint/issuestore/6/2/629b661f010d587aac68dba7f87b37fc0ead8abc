@@ -1,0 +1,38 @@
+
+H
+java:S3740"/Provide the parametrized type for this generic.(±ÉÊ£ıÿÿÿÿ
+H
+java:S3740"/Provide the parametrized type for this generic.(±ÉÊ£ıÿÿÿÿ
+g
+java:S1192"NDefine a constant instead of duplicating this literal "id_expression" 6 times.(ü¹àÿÿÿÿÿ
+d
+java:S1192"KDefine a constant instead of duplicating this literal "identifier" 6 times.(ü¹àÿÿÿÿÿ
+d
+java:S1192"KDefine a constant instead of duplicating this literal "regular_id" 6 times.(ü¹àÿÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(Ûß¨ô
+a	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ÌÌë
+C
+java:S6212"/Declare this local variable with "var" instead.(Æ¼ë‚
+C
+java:S6212"/Declare this local variable with "var" instead.(Á°§±
+a	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äû¤
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(Ê—„Ìüÿÿÿÿ
+H
+java:S6212"/Declare this local variable with "var" instead.(Å†Ùÿÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(‡Ú¢ˆ
+f	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñšØşÿÿÿÿ
+k
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 53 to the 15 allowed.(ñšØşÿÿÿÿ
+\
+java:S6208"CMerge the previous cases into this one using comma-separated label.(ˆ¥Ş»úÿÿÿÿ
+\
+java:S6208"CMerge the previous cases into this one using comma-separated label.(—Èƒ¨şÿÿÿÿ
+5	java:S131""Add a default case to this switch.(õÈı
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(ü¹àÿÿÿÿÿ
+K	java:S106"9Replace this use of System.out or System.err by a logger.(µÕ‹?
+K	java:S106"9Replace this use of System.out or System.err by a logger.(æèd
+L	java:S106"9Replace this use of System.out or System.err by a logger.(ß‘üÖ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(Ê—„Ìüÿÿÿÿ
+H
+java:S6212"/Declare this local variable with "var" instead.(Å†Ùÿÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(‡Ú¢ˆ

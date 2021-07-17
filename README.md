@@ -1,16 +1,13 @@
 # FindLink in JSON 
-Проверка файла json на наличие commit и execute_immediate по дереву
+Проверка файла на наличие ссылок "@"
 
 Работа через командную строку
 ---
 `-i` - input (папка с json файлами или json файл)<br>
-`-c` - conf (файл с форматом txt в котором прописываются commit, execute_immediate и т.д.)<br>
-`-o` - objects (файл с форматом txt в котором прописываются объекты в которых мы ищим параметры файла conf)
-
+`-o` - objects (файл с форматом txt в котором прописываются объекты которые необходимо найти)
 
 **Работа с файлами:**
-- `java -jar plsqlParser-1.0-jar-with-dependencies.jar -i ".../name_file.json" -c ".../name_file_conf.txt" -o ".../name_file_objects.txt"` <br>
-    "..." глобальный путь до файла<br>
+- `java -jar target\plsqlParser-1.0-jar-with-dependencies.jar -i "src\main\resources\sql.json" -o "src\main\resources\configuration\objects.txt"` <br>
     Вывод результата в консоль.
 - Использование только одного параметра недопустимо.
 

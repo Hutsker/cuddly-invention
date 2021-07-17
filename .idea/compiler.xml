@@ -9,6 +9,7 @@
         <module name="parser-plsql-CheckSyntacsis" />
         <module name="FindToLink" />
         <module name="plsqlParser" />
+        <module name="cuddly-invention" />
         <module name="find" />
         <module name="find-master" />
       </profile>
